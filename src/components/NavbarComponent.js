@@ -31,6 +31,11 @@ class NavbarComponent extends Component {
               </NavItem>
               <NavItem>
                 <NavLink>
+                  <Link to="/contact">Contact</Link>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink>
                   <Link to="/user">User</Link>
                 </NavLink>
               </NavItem>
