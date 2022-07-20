@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import User from "./pages/User";
 import NotFound from "./pages/NotFound";
+import Login from "./pages/Login";
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/contact" element={<Contact />}></Route>
           <Route exact path="/user" element={<User />}></Route>
+          <Route exact path="/login" element={<Login />}></Route>
           <Route path="*" element={<NotFound />}></Route>
         </Routes>
       </Router>

@@ -39,6 +39,11 @@ class NavbarComponent extends Component {
                   <Link to="/user">User</Link>
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink>
+                  <Link to="/login">Login</Link>
+                </NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
